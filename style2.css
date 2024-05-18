@@ -1,0 +1,188 @@
+#contenedor{
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid black;
+    font-family: "SF Pro Display";
+    background-color: #fafafc;
+} 
+
+#header_content{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+}
+
+svg{
+    margin: 0 20px;
+    align-items: center;
+    fill: white;
+}
+
+#menu .barra{
+    height: 80px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+    padding-top: 5px;
+}
+
+.barra .icon_phone15{
+    background-size: 38px 54px;
+    background-repeat: no-repeat;
+}
+
+.icon_phone15, .icon_phone13, .icon_phoneSE, .icon_phoneComparar, .icon_airpods, .icon_airtag, .icon_iOS17, .icon_phones{
+    justify-content: center;
+    margin: 0 15px;
+}
+.span_barra{
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Display";
+    display: block;
+    margin: 0;
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+}
+
+.barra .icon_phone13{    
+    background-size: 22px 54px;
+    background-repeat: no-repeat;
+    width: 22px;
+}
+
+.barra .icon_phoneSE{    
+    background-size: 19px 54px;
+    background-repeat: no-repeat;
+    width: 19px;
+}
+
+.barra .icon_phoneComparar{
+    background-size: 45px 54px;
+    background-repeat: no-repeat;
+    width: 45px;
+}
+
+.barra .icon_airpods{
+    background-size: 39px 54px;
+    background-repeat: no-repeat;
+    width: 39px;
+}
+
+.barra .icon_airtag{
+    background-size: 30px 54px;
+    background-repeat: no-repeat;
+    width: 30px;
+}
+
+.barra .icon_iOS17{
+    background-size: 32px 54px;
+    background-repeat: no-repeat;
+    width: 32px;
+}
+.barra .icon_phones{
+    background-size: 56px 54px;
+    background-repeat: no-repeat;
+    width: 56px;
+
+}
+
+#contenido h1{
+    padding: 0px 10px;
+}
+
+#productos{
+    display: flex;
+    gap: 0;
+}
+
+#productos li{
+    width: 200px;
+    height: auto;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 30px;
+    unicode-bidi: isolate;
+}
+
+#producto_item{
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.1428571429;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display
+}
+
+#text_producto{
+    font-size: 13px;
+    line-height: 1.4705882353;
+    font-weight: 500;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Display;
+}
+
+.btn-primary{
+    border-color: #0077ED;
+    padding: 5px;
+    background-color: #0077ED;
+    color: #fafafc;
+    border-radius: 20px; 
+    text-align: center;
+}
+
+
+
+#pie{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 20px;
+    padding: 5px; 
+    border-radius: 10px; 
+    text-align: center; 
+}
+
+#pie h3 {
+    box-sizing: 300px;
+    font-size: 13px;
+    margin: 0;
+    background-color: #e0e0e0;
+    border: 1px solid #bbb;
+    padding: 17px; 
+    border-radius: 5px;
+    width: 100%;
+}
+
+#pie figure {
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0; 
+    display: flex;
+    gap: 10px;
+}
+
+#pie h3.copy {
+    width: 60%;
+    padding: 10px;
+}
+
+#pie h3.poli {
+    width: 60%;
+    padding: 30px;
+}
